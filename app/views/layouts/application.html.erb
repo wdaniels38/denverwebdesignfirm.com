@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title><%= @title %> | denverwebdesignfirm.com - We create awesome websites</title>
+<meta name="description" content="<%= @description %>" />
+<meta name="keywords" content="<%= @keywords %>" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verify-v1" content="aDaUmITH1A3lOdG0sy9Y1bdWae8+4yHpl7ovIppnt5s=" />
+<meta name="robots" content="index,follow" />
+<%= javascript_include_tag :all %>
+<%= stylesheet_link_tag "screen" %>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<div id="header_wrapper">
+<div id="top_bar">
+</div>
+
+<div id="header">
+	<%= image_tag("dwdf_logo.png", {:alt => 'denver web design, denver web development'}) %>
+</div>
+</div>
+
+<div id="navigation_wrapper">
+	<div id="navigation">
+
+	</div>	
+</div>
+
+<div id="green_wrapper">
+
+<div id="green_contents">
+<div id="tape">
+<%= image_tag("tape_flash.png", {:alt => 'denver web site design'}) %>
+</div>
+
+<div id="banner_image">
+<%= image_tag("thfc.png", {:alt => 'denver web design'}) %>
+</div>
+
+
+
+<div class="recent_projects"><h3>recent projects</h3></div>
+</div>
+
+</div>
+
+<div id="wrapper">
+
+<div id="content_wrapper">
+
+
+<%= @content_for_layout %>
+<div style="clear:both"></div>
+</div>
+
+</div>
+
+<div id="footer_wrapper">
+	
+<div id="footer">
+
+<div id="onrails">
+<%= image_tag("onrails.png", {:alt => 'colorado website design'}) %>
+</div> 
+
+<div id="train">
+<%= image_tag("suellas_train.gif", {:alt => 'Ruby on Rails.. CHOO! CHOO!'}) %>
+</div> 
+
+</div>
+	
+
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4429241-10");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
